@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9345B08222CEEC190075712A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345B08122CEEC190075712A /* AppDelegate.swift */; };
+		9345B08422CEEC190075712A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345B08322CEEC190075712A /* ViewController.swift */; };
+		9345B08722CEEC190075712A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9345B08522CEEC190075712A /* Main.storyboard */; };
+		9345B08922CEEC1A0075712A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9345B08822CEEC1A0075712A /* Assets.xcassets */; };
+		9345B08C22CEEC1A0075712A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9345B08A22CEEC1A0075712A /* LaunchScreen.storyboard */; };
+		9345B09F22CEEF9F0075712A /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345B09722CEEF9F0075712A /* WebViewJavascriptBridgeBase.m */; };
+		9345B0A022CEEF9F0075712A /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345B09822CEEF9F0075712A /* WKWebViewJavascriptBridge.m */; };
+		9345B0A122CEEF9F0075712A /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345B09922CEEF9F0075712A /* WebViewJavascriptBridge.m */; };
+		9345B0A222CEEF9F0075712A /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9345B09C22CEEF9F0075712A /* WebViewJavascriptBridge_JS.m */; };
+		939CAD7722CF2599002D1A0C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 939CAD7622CF2599002D1A0C /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9345B07E22CEEC190075712A /* JSBridgeIOSSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBridgeIOSSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9345B08122CEEC190075712A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9345B08322CEEC190075712A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9345B08622CEEC190075712A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9345B08822CEEC1A0075712A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9345B08B22CEEC1A0075712A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9345B08D22CEEC1A0075712A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9345B09322CEEF690075712A /* JSBridgeIOSSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSBridgeIOSSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		9345B09722CEEF9F0075712A /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		9345B09822CEEF9F0075712A /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		9345B09922CEEF9F0075712A /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		9345B09A22CEEF9F0075712A /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		9345B09B22CEEF9F0075712A /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		9345B09C22CEEF9F0075712A /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		9345B09D22CEEF9F0075712A /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		9345B09E22CEEF9F0075712A /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		939CAD7622CF2599002D1A0C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9345B07B22CEEC190075712A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9345B07522CEEC190075712A = {
+			isa = PBXGroup;
+			children = (
+				939CAD7622CF2599002D1A0C /* .gitignore */,
+				9345B08022CEEC190075712A /* JSBridgeIOSSwift */,
+				9345B07F22CEEC190075712A /* Products */,
+				9345B09622CEEF9F0075712A /* WebViewJavascriptBridge */,
+			);
+			sourceTree = "<group>";
+		};
+		9345B07F22CEEC190075712A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9345B07E22CEEC190075712A /* JSBridgeIOSSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9345B08022CEEC190075712A /* JSBridgeIOSSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9345B08122CEEC190075712A /* AppDelegate.swift */,
+				9345B08322CEEC190075712A /* ViewController.swift */,
+				9345B08522CEEC190075712A /* Main.storyboard */,
+				9345B08822CEEC1A0075712A /* Assets.xcassets */,
+				9345B08A22CEEC1A0075712A /* LaunchScreen.storyboard */,
+				9345B08D22CEEC1A0075712A /* Info.plist */,
+				9345B09322CEEF690075712A /* JSBridgeIOSSwift-Bridging-Header.h */,
+			);
+			path = JSBridgeIOSSwift;
+			sourceTree = "<group>";
+		};
+		9345B09622CEEF9F0075712A /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				9345B09722CEEF9F0075712A /* WebViewJavascriptBridgeBase.m */,
+				9345B09822CEEF9F0075712A /* WKWebViewJavascriptBridge.m */,
+				9345B09922CEEF9F0075712A /* WebViewJavascriptBridge.m */,
+				9345B09A22CEEF9F0075712A /* WebViewJavascriptBridge_JS.h */,
+				9345B09B22CEEF9F0075712A /* WebViewJavascriptBridgeBase.h */,
+				9345B09C22CEEF9F0075712A /* WebViewJavascriptBridge_JS.m */,
+				9345B09D22CEEF9F0075712A /* WebViewJavascriptBridge.h */,
+				9345B09E22CEEF9F0075712A /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9345B07D22CEEC190075712A /* JSBridgeIOSSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9345B09022CEEC1A0075712A /* Build configuration list for PBXNativeTarget "JSBridgeIOSSwift" */;
+			buildPhases = (
+				9345B07A22CEEC190075712A /* Sources */,
+				9345B07B22CEEC190075712A /* Frameworks */,
+				9345B07C22CEEC190075712A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSBridgeIOSSwift;
+			productName = JSBridgeIOSSwift;
+			productReference = 9345B07E22CEEC190075712A /* JSBridgeIOSSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9345B07622CEEC190075712A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					9345B07D22CEEC190075712A = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 9345B07922CEEC190075712A /* Build configuration list for PBXProject "JSBridgeIOSSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9345B07522CEEC190075712A;
+			productRefGroup = 9345B07F22CEEC190075712A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9345B07D22CEEC190075712A /* JSBridgeIOSSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9345B07C22CEEC190075712A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939CAD7722CF2599002D1A0C /* .gitignore in Resources */,
+				9345B08C22CEEC1A0075712A /* LaunchScreen.storyboard in Resources */,
+				9345B08922CEEC1A0075712A /* Assets.xcassets in Resources */,
+				9345B08722CEEC190075712A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9345B07A22CEEC190075712A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9345B08422CEEC190075712A /* ViewController.swift in Sources */,
+				9345B0A022CEEF9F0075712A /* WKWebViewJavascriptBridge.m in Sources */,
+				9345B0A222CEEF9F0075712A /* WebViewJavascriptBridge_JS.m in Sources */,
+				9345B09F22CEEF9F0075712A /* WebViewJavascriptBridgeBase.m in Sources */,
+				9345B08222CEEC190075712A /* AppDelegate.swift in Sources */,
+				9345B0A122CEEF9F0075712A /* WebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9345B08522CEEC190075712A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9345B08622CEEC190075712A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9345B08A22CEEC1A0075712A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9345B08B22CEEC1A0075712A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9345B08E22CEEC1A0075712A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9345B08F22CEEC1A0075712A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9345B09122CEEC1A0075712A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JSBridgeIOSSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beichen.JSBridgeIOSSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSBridgeIOSSwift/JSBridgeIOSSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9345B09222CEEC1A0075712A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JSBridgeIOSSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beichen.JSBridgeIOSSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSBridgeIOSSwift/JSBridgeIOSSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9345B07922CEEC190075712A /* Build configuration list for PBXProject "JSBridgeIOSSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9345B08E22CEEC1A0075712A /* Debug */,
+				9345B08F22CEEC1A0075712A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9345B09022CEEC1A0075712A /* Build configuration list for PBXNativeTarget "JSBridgeIOSSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9345B09122CEEC1A0075712A /* Debug */,
+				9345B09222CEEC1A0075712A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9345B07622CEEC190075712A /* Project object */;
+}
