@@ -6,7 +6,9 @@ import Cookie from 'js-cookie';
 import styles from './App.less';
 
 
-const isAndroid = navigator.userAgent.endsWith('android');
+const u = navigator.userAgent;
+// Android终端
+const isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; 
 
 export default (props) => {
 

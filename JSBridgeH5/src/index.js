@@ -17,7 +17,11 @@ import App from './App';
  *          安卓才可以正常调用 H5 的回调函数，并且 H5 调用安卓成功后的回调函数也可以正常执行了
  */
 
-const isAndroid = navigator.userAgent.endsWith('android');
+const u = navigator.userAgent;
+// Android终端
+const isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+// IOS 终端
+const isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); 
 
 /**
  * Android  与安卓交互时：

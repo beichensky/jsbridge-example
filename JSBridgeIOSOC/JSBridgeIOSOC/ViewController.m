@@ -100,8 +100,8 @@
     // TODO: 请替换成页面的 url 地址
     NSString *URLSTR = @"http://xxx.xxx.xxx.xx:xxxx";
     self.webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 360) configuration:_webConfig];
-    // 设置 UserAgent 后缀，这里设置为 ios 用于在 H5 端进行区分 IOS 平台还是 Android 平台
-    _webView.customUserAgent = [NSString stringWithFormat:self.webView.customUserAgent, @"ios"];
+    // 设置 UserAgent 后缀
+    _webView.customUserAgent = [NSString stringWithFormat:self.webView.customUserAgent, @"app"];
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
     NSURL *url = [NSURL URLWithString:URLSTR];

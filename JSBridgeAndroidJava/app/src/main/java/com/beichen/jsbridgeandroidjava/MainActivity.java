@@ -22,6 +22,8 @@ import com.github.lzyzsd.jsbridge.CallBackFunction;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private BridgeWebView mWebView;
+    // URL 网络请求地址
+    // TODO: 请替换成页面的 url 地址
     private static final String URL = "http://xxx.xxx.xxx.xxx:xxxx/";
 
     long exitTime = 0;
@@ -65,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 进行缩放
         mWebView.getSettings().setBuiltInZoomControls(true);
         // 设置UserAgent
-        mWebView.getSettings().setUserAgentString(mWebView.getSettings().getUserAgentString() + "android");
+        mWebView.getSettings().setUserAgentString(mWebView.getSettings().getUserAgentString() + "app");
         // 设置不用系统浏览器打开,直接显示在当前WebView
         mWebView.setWebChromeClient(new WebChromeClient());
         mWebView.setWebViewClient(new MyWebViewClient(mWebView));

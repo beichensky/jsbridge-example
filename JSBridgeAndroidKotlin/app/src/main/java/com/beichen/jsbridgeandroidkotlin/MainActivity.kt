@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         // 进行缩放
         mWebView!!.settings.builtInZoomControls = true
         // 设置UserAgent
-        mWebView!!.settings.userAgentString = mWebView!!.settings.userAgentString + "android"
+        mWebView!!.settings.userAgentString = mWebView!!.settings.userAgentString + "app"
         // 设置不用系统浏览器打开,直接显示在当前WebView
         mWebView!!.webChromeClient = WebChromeClient()
         mWebView!!.webViewClient = MyWebViewClient(mWebView!!)

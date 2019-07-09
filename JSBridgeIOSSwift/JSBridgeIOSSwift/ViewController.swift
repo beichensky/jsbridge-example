@@ -92,8 +92,8 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
         // TODO: 请替换成页面的 url 地址
         let URLSTR = "http://xxx.xxx.xxx.xxx:xxxx"
         webView = WKWebView(frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: 420), configuration: webConfig!)
-        // 设置 UserAgent 后缀，这里设置为 ios 用于在 H5 端进行区分 IOS 平台还是 Android 平台
-        webView.customUserAgent = String(format: webView!.customUserAgent!, "ios")
+        // 设置 UserAgent 后缀
+        webView.customUserAgent = String(format: webView!.customUserAgent!, "app")
         webView.uiDelegate = self
         webView.navigationDelegate = self
         let url = URL(string: URLSTR)
