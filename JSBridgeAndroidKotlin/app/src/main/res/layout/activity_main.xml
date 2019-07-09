@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.github.lzyzsd.jsbridge.BridgeWebView
+            android:id="@+id/main_wv"
+            android:layout_width="match_parent"
+            android:layout_height="360dp">
+    </com.github.lzyzsd.jsbridge.BridgeWebView>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:padding="10dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="原生安卓界面："
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"/>
+        <Button
+                android:id="@+id/btn_init"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="调用 H5 默认接收方法"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+            <TextView
+                    android:textSize="18dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User 值："/>
+            <TextView
+                    android:id="@+id/tv_user"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12345"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+            <Button
+                    android:id="@+id/btn_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="修改 H5 界面 name 值" />
+            <EditText
+                    android:id="@+id/edit_name"
+                    android:layout_width="180dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="请输入新的name值"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+            <Button
+                    android:id="@+id/btn_cookie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置 Cookie token 值"/>
+            <EditText
+                    android:id="@+id/edit_cookie"
+                    android:layout_width="180dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="请输入新的 token 值"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
